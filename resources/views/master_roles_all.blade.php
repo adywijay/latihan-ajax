@@ -205,23 +205,6 @@
                     }
                 });
             }
-            // if (confirm('Are sure to delete this record.?')) {
-            //     $.ajax({
-            //         headers: {
-            //             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            //         },
-            //         url: 'delete_role/' + id, //Define Post URL
-            //         dataType: 'json',
-            //         type: "DELETE",
-            //         data: {
-            //             "_token": "{{ csrf_token() }}"
-            //         },
-            //         success: function(response) {
-            //             alert(response['message']);
-            //             window.location.reload();
-            //         }
-            //     });
-            // }
         }
     </script>
 @endsection
